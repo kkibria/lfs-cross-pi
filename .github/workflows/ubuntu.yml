@@ -16,6 +16,7 @@ jobs:
     - name: setup
       run: |
         pushd scripts
+        ln -s /usr/bin/bash /bin/sh
         bash setup.sh
         popd
 
