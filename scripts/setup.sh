@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-sudo apt-get install subversion xsltproc
+sudo ln -sf /usr/bin/bash /bin/sh
 bash version_check.sh
